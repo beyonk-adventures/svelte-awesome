@@ -1,6 +1,6 @@
 {
   "name": "@beyonk/svelte-awesome",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Font Awesome component for Svelte JS, using inline SVG",
   "main": "dist/svelte-awesome.js",
   "svelte": "components/Icon.html",
