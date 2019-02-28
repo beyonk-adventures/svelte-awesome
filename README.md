@@ -24,19 +24,19 @@ $ npm install --save @beyonk/svelte-awesome
 
 ```js
   import Icon from '@beyonk/svelte-awesome/src/components/Icon.html'
-	import beer from '@beyonk/svelte-awesome/src/icons/beer'
-
-	export default {
+  import beer from '@beyonk/svelte-awesome/src/icons/beer'
+  
+  export default {
     data () {
       return {
         beer
       }
     },
 
-		components: {
-			Icon
-		}
-	}
+    components: {
+      Icon
+    }
+  }
 ```
 
 ```html
