@@ -10,23 +10,21 @@
 
 Svelte-Awesome is built upon [Font-Awesome][font-awesome] `v4.7.0`
 
-A demo is available [here][demo]
+## This version
 
-[vue-awesome]: https://github.com/Justineo/vue-awesome
-[font-awesome]: https://github.com/FortAwesome/Font-Awesome
-[demo]: https://robbrazier.github.io/svelte-awesome
+This version adapts the original `svelte-awesome` library to not import *all* the icons at once, to save space in your browser bundle. This means you need to import the icons individually and use the `data=` attribute.
 
 ## Installation
 ### NPM
 ```
-$ npm install --save svelte-awesome
+$ npm install --save @beyonk/svelte-awesome
 ```
 
 ## Usage
 
 ```js
-  import Icon from 'svelte-awesome/src/components/Icon.html'
-	import beer from 'svelte-awesome/src/icons/beer'
+  import Icon from '@beyonk/svelte-awesome/src/components/Icon.html'
+	import beer from '@beyonk/svelte-awesome/src/icons/beer'
 
 	export default {
     data () {
